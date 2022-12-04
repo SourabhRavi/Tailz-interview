@@ -64,7 +64,7 @@ function App() {
               breed={dogs.breed}
               photo={dogs.photo}
               vaccination={dogs.vaccination}
-              date={dogs.date}
+              weight={dogs.weight}
               dob={dogs.dob}
               gender={dogs.gender}
             />

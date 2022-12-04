@@ -1,6 +1,6 @@
 import React from "react";
 
-function DogDetails({ name, breed, photo, vaccination, date, dob, gender }) {
+function DogDetails({ name, breed, photo, vaccination, weight, dob, gender }) {
   return (
     <>
       <div className="dog-item">
@@ -12,10 +12,10 @@ function DogDetails({ name, breed, photo, vaccination, date, dob, gender }) {
           <b>Breed:</b> {breed}
         </p>
         <p>
-          <b>Vaccination:</b> {vaccination}
+          <b>Vaccination:</b> {vaccination ? "Done" : "Not done"}
         </p>
         <p>
-          <b>Date:</b> {date}
+          <b>Weight:</b> {weight}
         </p>
         <p>
           <b>DOB:</b> {dob}
